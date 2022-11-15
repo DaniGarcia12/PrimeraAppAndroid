@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FirstAppAndroid</string>
+    <string name="boton1">BOTON STRING</string>
+    <string name="Boton2">click here</string>
+</resources>

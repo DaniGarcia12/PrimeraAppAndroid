@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#8BC34A"
+        android:gravity="center"
+        android:text="@string/Boton2" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_centerVertical="true"
+        android:backgroundTint="#C53737"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_below="@id/button8"
+        android:layout_alignParentEnd="false"
+        android:layout_toLeftOf="@id/button7"
+        android:backgroundTint="#FF9800"
+        android:gravity="right"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/textDani"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="textDani" />
+</RelativeLayout>

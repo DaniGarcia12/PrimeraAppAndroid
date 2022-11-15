@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:background="#4CAF50"
+    tools:context=".relative">
+
+    <Button
+        android:id="@+id/button32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#1EE9BA"
+        android:text="SIGUIENTE" />
+
+    <Button
+        android:id="@+id/button33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button32"
+        android:layout_alignLeft="@id/button32"
+        android:backgroundTint="#9C27B0"
+        android:onClick="norte"
+        android:text="N" />
+
+    <Button
+        android:id="@+id/button34"
+        android:layout_width="81dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button33"
+        android:layout_alignLeft="@id/button33"
+        android:layout_alignRight="@id/button33"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="false"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="-93dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#E91E63"
+        android:text="NO" />
+
+    <Button
+        android:id="@+id/button35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button34"
+        android:layout_alignRight="@id/button34"
+        android:layout_alignParentRight="false"
+        android:backgroundTint="#E91E63"
+        android:text="SO" />
+
+    <Button
+        android:id="@+id/button37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/button32"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="false"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="-3dp"
+        android:backgroundTint="#9C27B0"
+        android:text="C" />
+
+    <Button
+        android:id="@+id/button40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/button37"
+        android:layout_alignParentRight="false"
+        android:layout_toRightOf="@id/button41"
+        android:background="#FFEB3B"
+        android:text="E" />
+
+    <Button
+        android:id="@+id/button41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/button34"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentRight="false"
+        android:layout_toRightOf="@id/button33"
+        android:background="#E91E63"
+        android:text="NE" />
+
+    <Button
+        android:id="@+id/button42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/button35"
+        android:layout_toRightOf="@id/button37"
+        android:background="#E91E63"
+        android:text="SE" />
+
+    <Button
+        android:id="@+id/button43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/button37"
+        android:layout_toLeftOf="@id/button35"
+        android:background="#FFEB3B"
+        android:text="O" />
+
+</RelativeLayout>

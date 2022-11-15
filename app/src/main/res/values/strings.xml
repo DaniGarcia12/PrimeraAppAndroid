@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PrimeraAppAndroid</string>
+    <string name="boton1">BOTON STRING</string>
+    <string name="Boton2">pulsa aqui</string>
+</resources>
